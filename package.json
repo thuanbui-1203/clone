@@ -1,0 +1,14 @@
+{
+  "name": "spotify-1hr",
+  "version": "1.0.0",
+  "description": "cloning spotify hopefully learn something new",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^33.2.1"
+  }
+}

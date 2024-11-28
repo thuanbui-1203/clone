@@ -1,0 +1,91 @@
+html, body {
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+    cursor: default;
+}
+.container {
+    height: 100vh;
+}
+body {
+    background-color: white;
+    box-sizing: border-box;
+    margin:0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: "Gotham SSm A","Gotham SSm B", "Helvatica Neue", Helvetica,
+        Arial,
+        sans-serif;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.left {
+    background-color: black;
+    position: relative;
+    width: 300px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.gray-filtered {
+    filter: invert(0.5) sepia(70) saturate(0) hue-rotate(0deg);
+}
+
+.menu ul {
+    width: 100%;
+}
+.menu ul li img {
+    width: 24px;
+}
+.menu ul li {
+    pad: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: gray;
+}
+.menu ul * {
+    cursor: pointer;
+}
+
+.menu ul li a span {
+    position: relative;
+    top: -5px;
+    left: 8px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.menu li {
+    padding-left: 0 !important;
+}
+.playlists {
+    font-weight: 400 !important;
+}
+
+.playlists ul li a span {
+    left: 0;
+}
+
+.current-song-cover img {
+    position: default;
+    width: 100%;
+    bottom: 400px;
+    left: 0;
+}
